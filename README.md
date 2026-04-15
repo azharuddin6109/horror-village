@@ -1,2 +1,32 @@
-# horror-village
-A 3D first-person horror survival game made with Godot 4.6. My 2nd attempt to make a game and first time a 3d.
+# Horror Village
+
+A 3D first-person horror survival game made with **Godot 4.6**.
+
+## About the Game
+Horror Village is a small 3D horror project where the player explores a creepy village in first person.
+
+This is my **second attempt at making a game** and my **first time creating a 3D game**.
+
+## Built With
+- **Godot 4.6**
+
+## How to Open
+1. Download or clone this repository
+2. Open **Godot 4.6**
+3. Import the project by selecting `project.godot`
+
+## Controls
+- **W A S D** = Move
+- **Mouse** = Look around
+
+## Project Status
+This project is still in progress and may be updated with more features later.
+
+## Future Plans
+- Add more horror elements
+- Improve environment details
+- Add better interaction
+- Add more gameplay features
+
+## Screenshots
+Screenshots will be added later.
