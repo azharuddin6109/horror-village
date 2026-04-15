@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://dwyhscgatviq1"]
+
+[ext_resource type="PackedScene" uid="uid://dfp0gnfiwj3b1" path="res://houseMain.glb" id="1_r57si"]
+[ext_resource type="Script" uid="uid://tmgycto8iao5" path="res://door_55.gd" id="2_dhub7"]
+[ext_resource type="Script" uid="uid://c12cvt7dr6ljv" path="res://object_88.gd" id="3_2oyq3"]
+
+[node name="Sketchfab_Scene" unique_id=1041326214 instance=ExtResource("1_r57si")]
+
+[node name="door_55" parent="Sketchfab_model/root/GLTF_SceneRootNode" parent_id_path=PackedInt32Array(292691165) index="8" unique_id=1156040343]
+script = ExtResource("2_dhub7")
+
+[node name="Object_88" parent="Sketchfab_model/root/GLTF_SceneRootNode/Door_low_002_Door_0_001_62" parent_id_path=PackedInt32Array(1173883226) index="0" unique_id=457375901]
+transform = Transform3D(1, 0, 3.5527137e-15, 7.450581e-09, 1, 2.220446e-16, -1.0658141e-14, -3.907985e-14, 1.0000004, -0.24879432, 0.90746796, 0.12383199)
+script = ExtResource("3_2oyq3")

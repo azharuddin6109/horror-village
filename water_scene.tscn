@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://ljop8xjtfmow"]
+
+[ext_resource type="PackedScene" uid="uid://c5vamfeugoyp8" path="res://plane_water_low.glb" id="1_0iimn"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_wrhfa"]
+albedo_color = Color(0, 0.09803922, 1, 1)
+
+[node name="Sketchfab_Scene" unique_id=81700440 instance=ExtResource("1_0iimn")]
+
+[node name="water" parent="Sketchfab_model/8f990de66acb4a02b1adf718e2027c0d_abc_cleaner_materialmerger_gles/Object_2/Object_3/MorphMainGroup" parent_id_path=PackedInt32Array(643664700) index="0" unique_id=1875713661]
+surface_material_override/0 = SubResource("StandardMaterial3D_wrhfa")

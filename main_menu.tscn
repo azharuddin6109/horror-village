@@ -1,0 +1,33 @@
+[gd_scene format=3 uid="uid://dwj3w7jpj8kt6"]
+
+[ext_resource type="Script" uid="uid://bnxdpcarpvq1q" path="res://main_menu.gd" id="1_06t4h"]
+
+[node name="MainMenu" type="Control" unique_id=881530736]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_06t4h")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=585713159]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="NewGameBtn" type="Button" parent="VBoxContainer" unique_id=2147274788]
+layout_mode = 2
+text = "New Game"
+
+[node name="ContinueBtn" type="Button" parent="VBoxContainer" unique_id=1003808721]
+layout_mode = 2
+text = "Continue"
+
+[node name="SettingsBtn" type="Button" parent="VBoxContainer" unique_id=583842815]
+layout_mode = 2
+text = "Setting"
+
+[node name="QuitBtn" type="Button" parent="VBoxContainer" unique_id=1556899465]
+layout_mode = 2
+text = "Quit"
