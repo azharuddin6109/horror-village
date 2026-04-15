@@ -8,7 +8,7 @@ Horror Village is a small 3D horror project where the player explores a creepy v
 This is my **second attempt at making a game** and my **first time creating a 3D game**.
 
 ## Built With
-- **Godot 4.6**
+- **Godot 4.5**
 
 ## How to Open
 1. Download or clone this repository
@@ -16,7 +16,7 @@ This is my **second attempt at making a game** and my **first time creating a 3D
 3. Import the project by selecting `project.godot`
 
 ## Controls
-- **W A S D** = Move
+- **Arrow Keys** = Move
 - **Mouse** = Look around
 
 ## Project Status
